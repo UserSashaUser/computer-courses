@@ -1,0 +1,141 @@
+.tree__container{
+    max-width: 1000px;
+    width: 100%;
+  
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 570px;
+    padding-top: 200px;
+    margin-top: -160px;
+    
+    
+  
+    
+  
+  }
+  .tree__title{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 200px;
+  }
+  .tree__title-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 77px;
+  
+  }
+  .tree__title-text{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 40px;
+      font-family: 'Roboto', sans-serif;
+      width: 100%;
+      
+  
+  
+  }
+  .tree__text__par{
+     
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+  
+  
+  }
+  .tree__column__card-title{
+  
+      font-size: 13px;
+      
+      color: gray;
+  
+  }
+  .tree__column__card-title-down{
+  
+      font-size: 13px;
+      color: gray;
+      margin-left: 40px;
+  }
+  .tree__column__card-title-down{
+      font-size: 13px;
+      color: gray;
+      margin-left: 40px;
+  }
+  .tree__column__card{
+  
+      height: 80px;
+      width: 228px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      padding-right: 50px;
+      
+  
+  
+  }
+  .right{
+     align-items: flex-start;
+     padding-left: 50px;
+     
+  
+  
+  }
+  
+  .tree__column{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  height: 560px;
+      
+  
+  }
+  .tree__column__card-text{
+  
+  
+      width: 100%;
+      text-align: right;
+  
+  }
+  .second{
+  
+      text-align: left;
+  }
+  
+  .tree__column:last-child{
+      padding-top: 80px;
+      padding-bottom: 80px;
+      height: 400px;
+      border-left: 6px solid white;
+      justify-content: space-between;
+  
+      width: 200px;
+  
+  
+  
+  
+  }
+  
+  .tree{
+      background: url(../img/bgc.png);
+      height: 1250px;
+  
+  
+  }
+  .tree-one{
+      color: red;
+      font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  

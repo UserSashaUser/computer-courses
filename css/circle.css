@@ -1,0 +1,61 @@
+.circle__item {
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../img/bgc.png");
+    height: 500px;
+
+}
+
+.circle__item-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.circle__item__up-left {
+    display: flex;
+
+    height: 100px;
+    width: 200px;
+
+}
+
+.circle__item__up-left {
+    background: url("../img/Ellipse 1 (Stroke).png");
+    height: 77px;
+    width: 77px;
+
+}
+
+.circle__item__up-right {
+    color: white;
+    font-size: 48px;
+    display: flex;
+    width: 88%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.circle__item-down h1 {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    color: gray;
+    margin-bottom: 800px;
+    margin-left: -500px;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width:768px) {
+
+
+    
+    
+}

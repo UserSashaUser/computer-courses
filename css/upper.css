@@ -1,0 +1,150 @@
+.upper {
+
+    height: 130px;
+    width: 100%;
+    background-color: #000;
+
+
+
+}
+
+.upper__container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.up__banner {
+    width: 20%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+
+
+.header-button2 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: linear-gradient(70deg, #d497bc, #762db5);
+    color: white;
+    width: 123px;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+    font-size: 16px;
+    position: absolute;
+
+    text-align: center;
+
+}
+
+.up__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 25%;
+    height: 100%;
+
+
+
+}
+
+
+.up__text-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 100%;
+
+
+
+
+
+
+}
+
+.up__banner-text-ones12 {
+    color: white;
+    font-size: 16px;
+    margin-top: 7px;
+
+}
+
+.up__text_border {
+    width: 440px;
+    height: 5px;
+    color: white;
+    border: 1px solid white;
+    margin-top: -10px;
+
+}
+
+
+.up__banner__text-learning {
+    color: grey;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.up__banner__text__learning-items {
+    color: grey;
+    font-size: 13px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+}
+
+.up__banner__text__learning__items-block {
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+
+
+
+
+}
+
+span {
+    color: white;
+    font-weight: 900;
+}
+
+.up__banner__text__learning__items__block-out {
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+}
+@media  screen and ( max-width:768px) {
+    .up__text{
+        display: none;
+    }
+    .up__text-item{
+        display: none;
+    }
+    .header-button2{
+        align-items:center;
+    }
+}

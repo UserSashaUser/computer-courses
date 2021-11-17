@@ -1,0 +1,124 @@
+.start__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: url("../img/bgc.png");
+    height: 900px;
+    margin-top: -790px;
+
+}
+
+.start__item__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    width: 75%;
+    margin-top: 500px;
+
+
+
+}
+
+.start__item-1 {
+    font-size: 36px;
+    width: 89px;
+}
+
+.start__item__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 78%;
+    height: 90%;
+  
+
+
+
+
+
+}
+
+.start__item__text-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    
+
+}
+
+.start__item-block-1 {
+    width: 340px;
+    height: 88px;
+    background: linear-gradient(70deg, #d497bc, #762db5);
+
+
+}
+
+.start__item-block-2 {
+    width: 340px;
+    height: 66px;
+    background: linear-gradient(70deg, #762db5, #d497bc);
+}
+
+.start__item-block-3 {
+    width: 340px;
+    height: 44px;
+    background: linear-gradient(70deg, #d497bc, #762db5);
+}
+
+.start__item-block-4 {
+    width: 340px;
+    height: 22px;
+    background: linear-gradient(70deg, #762db5, #d497bc);
+}
+
+.start__item-lorem-1 .start-1 {
+    font-size: 20px;
+    display: flex;
+    color: gray;
+    height: 90%;
+    
+
+
+
+
+}
+
+.start__item__text-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    height: 80%;
+
+
+}
+
+.start-1 {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and ( max-width:700px) {
+    .start-1{
+        display: none;
+    }
+    .start__item-lorem-1{
+        display: none;
+    }
+}
